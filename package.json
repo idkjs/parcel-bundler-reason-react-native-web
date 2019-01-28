@@ -21,5 +21,8 @@
     "bs-platform": "^4.0.18",
     "bsb-js": "^1.1.7",
     "parcel-bundler": "^1.11.0"
+  },
+  "alias": {
+    "react-native": "react-native-web"
   }
 }

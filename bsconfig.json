@@ -1,0 +1,25 @@
+{
+  "name": "parcel-reason-react-example",
+  "namespace": true,
+  "suffix": ".bs.js",
+  "reason": { "react-jsx": 2 },
+  "refmt": 3,
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies": [   "reason-react",
+    "bs-react-native"],
+  "bsc-flags": ["-bs-super-errors"],
+  "warnings": {
+    "error": "+101"
+  }
+}

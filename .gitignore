@@ -1,0 +1,14 @@
+### Reason ###
+
+*.bs.js
+.cache
+.merlin
+.bsb.lock
+lib/
+node_modules
+
+# Used for development builds
+dist
+
+# Used for production builds
+build

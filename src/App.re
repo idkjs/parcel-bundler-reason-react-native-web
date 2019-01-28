@@ -8,8 +8,8 @@ let make = (~name, _children) => {
   ...component,
   render: _self =>
     <View>
-      <h1>
+      <Text>
         {ReasonReact.string("Hello " ++ name ++ " from ReasonReact!")}
-      </h1>
+      </Text>
     </View>,
 };

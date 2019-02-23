@@ -10,6 +10,7 @@
     "watch": "bsb -make-world -w",
     "clean": "bsb -clean-world"
   },
+  "alias":{"react-native":"react-native-web"},
   "dependencies": {
     "bs-react-native": "^0.10.0",
     "react": "^16.6.0",
